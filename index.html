@@ -94,7 +94,7 @@
                     <div class="flex items-center gap-6">
                         <!-- <a class='hidden border-b-2 border-transparent font-bold text-white transition-all duration-300 hover:border-colorOrangyRed hover:text-colorOrangyRed lg:inline-block'
                             href='login.html'>Login</a>
-                        <a class='button hidden rounded-[50px] border-none bg-colorViolet text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white lg:inline-block'
+                        <a class='button hidden rounded-[50px] border-none bg-colorViolet text-white after:bg-black hover:border-colorOrangyRed hover:text-white lg:inline-block'
                             href='signup.html'>Sign
                             up free</a> -->
                         <!-- Responsive Offcanvas Menu Button -->
@@ -134,11 +134,11 @@
                                         not only prepared for what's next but also leading the charge.
                                     </p>
                                     <a href="#book"
-                                        class="jos button relative z-[1] inline-flex items-center gap-3 rounded-[50px] border-none bg-colorViolet py-[18px] text-white after:bg-colorOrangyRed hover:text-white mb-4" style="background: #002A83">Book your free session
+                                        class="jos button relative z-[1] inline-flex items-center gap-3 rounded-[50px] border-none bg-colorViolet py-[18px] text-white after:bg-black hover:text-white mb-4" style="background: #002A83">Book your free session
                                         <img src="assets/img/th-2/icon-white-long-arrow-right.svg"
                                             alt="icon-white-long-arrow-right" /></a>
                                     <a href="https://www.example.com/"
-                                        class="jos button relative z-[1] inline-flex items-center gap-3 rounded-[50px] border-none bg-white py-[18px] text-black mb-10 after:bg-colorOrangyRed hover:text-white">Try our solutions today!</a>
+                                        class="jos button relative z-[1] inline-flex items-center gap-3 rounded-[50px] border-none bg-white py-[18px] text-black mb-10 after:bg-black hover:text-white">Try our solutions today!</a>
                                 </div>
                                 <!-- Hero Content -->
                                 <!-- Hero Image -->
@@ -180,83 +180,127 @@
                         </div>
                         <!-- Section Content Block -->
                         <!-- Feature List -->
-                        <ul class="grid gap-x-0 gap-y-10 md:grid-cols-4 xl:grid-cols-4" style="padding-left: 50px; padding-right: 50px;">
-                            <!-- Feature Item -->
-                            <li class="jos flex flex-col gap-x-[30px] border-2 border-black gap-y-6 p-5 sm:flex-row" style="border-radius: 15px 0 0 15px; border-width: 3px;" data-jos_delay="0.1">
-                                <div class="flex flex-1 flex-col gap-y-5">
-                                    <div class="flex h-20 w-20 items-left justify-center mb-10 p-4]">
-                                        <img src="assets/img/service-icon-black-1.svg.svg" alt="icon-feature-1" width="70" height="70" />
-                                    </div>
-                                    <div
-                                        class="font-clashDisplay text-[22px] font-medium leading-6 lg:text-[28px] lg:leading-5" style="line-height: 1.70rem;">
-                                        Core <br> Innovation
-                                    </div>
-                                    <p>
-                                        We craft AI-driven products to enhance business efficiency and productivity. 
-                                    </p>
-                                    <div class="flex h-10 w-10 items-center justify-center  mt-10 p-5]">
-                                        <img src="assets/img/arrow-right-black.svg" alt="icon-feature-1" width="49" height="45" />
-                                    </div>                                   
+                        <ul
+                            class="jos grid grid-cols-1 gap-[2px] overflow-hidden rounded-[10px] border-2 border-black bg-black sm:grid-cols-2 lg:grid-cols-4">
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-1.svg" alt="service-icon-black-1"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-1.svg" alt="service-icon-orange-1"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
                                 </div>
-                            </li>
-                            <!-- Feature Item -->
-                           <!-- Feature Item -->
-                           <li class="jos flex flex-col gap-x-[30px] border-2 border-black gap-y-6 p-5 sm:flex-row" style="border-radius: 0 0 0 0; border-width: 3px; margin-left: -3px" data-jos_delay="0.1">
-                            <div class="flex flex-1 flex-col gap-y-5">
-                                <div class="flex h-20 w-20 items-left justify-center mb-10 p-4]">
-                                    <img src="assets/img/service-icon-black-2.svg" alt="icon-feature-1" width="70" height="70" />
-                                </div>
-                                <div
-                                    class="font-clashDisplay text-[22px] font-medium lg:text-[28px]" style="line-height: 1.70rem;">
-                                    Strategic AI Consulting
-                                </div>
-                                <p>
-                                    Our experts customize AI strategies for your organization's success. 
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a class='hover:text-colorOrangyRed' href='service-details.html'>
+                                        Core Innovation
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    We craft AI-driven products to enhance business efficiency and productivity.
                                 </p>
-                                <div class="flex h-10 w-10 items-center justify-center  mt-10 p-5]">
-                                    <img src="assets/img/arrow-right-black.svg" alt="icon-feature-1" width="49" height="45" />
-                                </div>                                   
-                            </div>
-                        </li>
-                        <!-- Feature Item -->
-                        <!-- Feature Item -->
-                        <li class="jos flex flex-col gap-x-[30px] border-2 border-black gap-y-6 p-5 sm:flex-row" style="border-radius: 0 0 0 0; border-width: 3px; margin-left: -3px" data-jos_delay="0.1">
-                            <div class="flex flex-1 flex-col gap-y-5">
-                                <div class="flex h-20 w-20 items-left justify-center mb-10 p-4]">
-                                    <img src="assets/img/service-icon-black-3.svg" alt="icon-feature-1" width="70" height="70" />
+
+                                <a class='relative inline-block h-[30px] w-[30px] duration-300' href='service-details.html'>
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-2.svg" alt="service-icon-black-2"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-2.svg" alt="service-icon-orange-1"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
                                 </div>
-                                <div
-                                    class="font-clashDisplay text-[22px] font-medium leading-6 lg:text-[28px] lg:leading-5" style="line-height: 1.70rem;">
-                                    Custom AI Development
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a class='hover:text-colorOrangyRed' href='service-details.html'>
+                                        Strategic AI Consulting
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    Our experts customize AI strategies for your organization's success.
+                                </p>
+
+                                <a class='relative inline-block h-[30px] w-[30px] duration-300' href='service-details.html'>
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                                <!-- Features Item -->
+                                <!-- Features Item -->
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-3.svg" alt="service-icon-black-3"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-3.svg" alt="service-icon-orange-3"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
                                 </div>
-                                <p>
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a class='hover:text-colorOrangyRed' href='service-details.html'>
+                                        Custom AI Development
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
                                     Tailored AI solutions to tackle your unique challenges and boost competitiveness.
                                 </p>
-                                <div class="flex h-10 w-10 items-center justify-center  mt-10 p-5]">
-                                    <img src="assets/img/arrow-right-black.svg" alt="icon-feature-1" width="49" height="45" />
-                                </div>                                   
-                            </div>
-                        </li>
-                        <!-- Feature Item -->
-                        <!-- Feature Item -->
-                        <li class="jos flex flex-col gap-x-[30px] border-2 border-black gap-y-6 p-5 sm:flex-row" style="border-radius: 0 15px 15px 0; border-width: 3px; margin-left: -3px" data-jos_delay="0.1">
-                            <div class="flex flex-1 flex-col gap-y-5">
-                                <div class="flex h-20 w-20 items-left justify-center mb-10 p-4]">
-                                    <img src="assets/img/service-icon-black-4.png" alt="icon-feature-1" width="70" height="70" />
+
+                                <a class='relative inline-block h-[30px] w-[30px] duration-300' href='service-details.html'>
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                            </li>
+                            <!-- Service Item -->
+                            <!-- Service Item -->
+                            <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                                <div class="relative mb-9 h-[70px] w-[70px]">
+                                    <img src="assets/img/th-1/service-icon-black-4.svg" alt="service-icon-black-4"
+                                        width="70" height="70" />
+                                    <img src="assets/img/th-1/service-icon-orange-4.svg" alt="service-icon-orange-4"
+                                        width="70" height="70"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
                                 </div>
-                                <div
-                                    class="font-clashDisplay text-[22px] font-medium leading-6 lg:text-[28px] lg:leading-5" style="line-height: 1.70rem;">
-                                    AI Mastery Training
-                                </div>
-                                <p>
-                                    Elevate your team's AI skills with hands-on programs for maximum operational impact. 
+                                <h3
+                                    class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                    <a class='hover:text-colorOrangyRed' href='service-details.html'>
+                                        AI Mastery Training
+                                    </a>
+                                </h3>
+
+                                <p class="mb-12 duration-300 group-hover:text-white">
+                                    Elevate your team's AI skills with hands-on programs for maximum operational impact.
                                 </p>
-                                <div class="flex h-10 w-10 items-center justify-center  mt-10 p-5]">
-                                    <img src="assets/img/arrow-right-black.svg" alt="icon-feature-1" width="49" height="45" />
-                                </div>                                   
-                            </div>
-                        </li>
-                        <!-- Feature Item -->
+
+                                <a class='relative inline-block h-[30px] w-[30px] duration-300' href='service-details.html'>
+                                    <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                                        height="30" />
+                                    <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                                        height="30"
+                                        class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                                </a>
+                            </li>
+                            <!-- Service Item -->
+                        
                         </ul>
                         <!-- Feature List -->
                     </div>
@@ -305,7 +349,7 @@
                                     </p>
                                 </div>
                         
-                                <a href="https://bot.inovasolutions.ai/" class="button relative mt-10 z-[1] inline-flex items-center gap-3 rounded-[50px] border-none py-[18px] text-white after:bg-colorOrangyRed hover:text-white" style="background: #002A83;">Try our Chatbot Now!
+                                <a href="https://bot.inovasolutions.ai/" class="button relative mt-10 z-[1] inline-flex items-center gap-3 rounded-[50px] border-none py-[18px] text-white after:bg-black hover:text-white" style="background: #002A83;">Try our Chatbot Now!
                                     <img src="assets/img/th-2/icon-white-long-arrow-right.svg" alt="icon-white-long-arrow-right" />
                                 </a>
                             </div>
@@ -357,11 +401,11 @@
                                         
                                     </div>
                                     <a href="https://avatar.inovasolutions.ai/"
-                                            class="button relative mt-10 z-[1] inline-flex items-center gap-3 rounded-[50px] border-none py-[18px] text-white after:bg-colorOrangyRed hover:text-white" style="background: #002A83;">Lead the change
+                                            class="button relative mt-10 z-[1] inline-flex items-center gap-3 rounded-[50px] border-none py-[18px] text-white after:bg-black hover:text-white" style="background: #002A83;">Lead the change
                                             <img src="assets/img/th-2/icon-white-long-arrow-right.svg"
                                                 alt="icon-white-long-arrow-right" /></a>
                                     <a href="https://www.example.com/"
-                                            class="button relative mt-10 z-[1] inline-flex items-center gap-3 rounded-[50px] border-none py-[18px] text-white after:bg-colorOrangyRed hover:text-white" style="background: #212121;">Watch Noura Now
+                                            class="button relative mt-10 z-[1] inline-flex items-center gap-3 rounded-[50px] border-none py-[18px] text-white after:bg-black hover:text-white" style="background: #212121;">Watch Noura Now
                                             <img src="assets/img/play.svg"
                                                 alt="icon-white-long-arrow-right" style="height: 24px; width: 24px;"/></a>
                                 </div>
@@ -730,7 +774,7 @@
                                     
 
                                     <a href="#book"
-                                        class="button relative z-[1] inline-flex items-center gap-3 rounded-[50px] border-none py-[18px] text-white after:bg-colorOrangyRed hover:text-white" style="background: #002A83;">Book your free Session
+                                        class="button relative z-[1] inline-flex items-center gap-3 rounded-[50px] border-none py-[18px] text-white after:bg-black hover:text-white" style="background: #002A83;">Book your free Session
                                         <img src="assets/img/th-2/icon-white-long-arrow-right.svg"
                                             alt="icon-white-long-arrow-right" /></a>
                                 </div>
@@ -1259,7 +1303,7 @@
 
                                     <div>
                                         <button type="submit"
-                                            class="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-colorOrangyRed hover:border-colorOrangyRed hover:text-white">
+                                            class="button mt-5 rounded-[50px] border-2 border-black bg-black py-4 text-white after:bg-black hover:border-colorOrangyRed hover:text-white">
                                             Send your message
                                         </button>
                                     </div>
